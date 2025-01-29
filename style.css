@@ -1,0 +1,30 @@
+.search-results #left-move img{
+   width: 50px;
+}
+.search-results #right-move img{
+   width: 50px;
+}
+
+.search-results{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+}
+
+.search-results img{
+    width: 190%;
+    height: 600px;
+    position: relative;
+    aspect-ratio: 3/2;
+}
+
+.move-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+   
